@@ -1,0 +1,284 @@
+@font-face {
+    font-family: Pokemon;
+    src: url(/assets/fonts/PressStart2P-Regular.ttf);
+}
+
+:root {
+        --normal: rgb(168, 167, 122, 1);
+        --fire: rgb(238, 129, 48, 1);
+        --water: rgb(99, 144, 240, 1);
+        --electric: rgb(247, 208, 44, 1);
+        --grass: rgb(122, 199, 76);
+        --ice: rgb(150, 217, 214, 1);
+        --fighting: rgb(194, 46, 40, 1);
+        --poison: rgb(163, 62, 161, 1);
+        --ground: rgb(226, 191, 101, 1);
+        --flying: rgb(169, 143, 243, 1);
+        --psychic: rgb(249, 85, 135, 1);
+        --bug: rgb(166, 185, 26, 1);
+        --rock: rgb(182, 161, 54, 1);
+        --ghost: rgb(115, 87, 151, 1);
+        --dragon: rgb(111, 53, 252, 1);
+        --dark: rgb(112, 87, 70, 1);
+        --steel: rgb(183, 183, 206, 1);
+        --fairy: rgb(214, 133, 173, 1);
+}
+
+main {
+    display: flex;
+    min-height: 100vh;
+}
+
+.content {
+    padding: 0% 2%;
+    width: 100%;
+}
+
+.pokedex {
+    background-color: red;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    border-radius: 25px;
+    border: 3px solid black;
+
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Pokemon;
+    font-size: 12px;
+}
+
+.pokedex-inside {
+    background-color: rgb(240, 240, 240);
+    width: 90%;
+    height: 90%;
+    border-radius: 25px;
+    border: 4px solid black;
+
+    
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.pkm-left {
+    width: 50%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pkm-right {
+    width: 40%;
+    height: 95%;
+    border: 4px solid black;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.pkm-select {
+    margin-bottom: 3%;
+    text-transform: capitalize;
+}
+
+.pkm-list {
+    padding-left: 15%;
+    width: 70%;
+}
+
+.buttons {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    margin: 20% 0;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 5px;
+    border: 4px solid black;
+}
+
+li {
+    list-style: none;
+}
+ul {
+    padding : 0;
+}
+
+button:disabled {
+    background-color: darkgray;
+}
+
+.name {
+    border: 4px solid black;
+    border-radius: 20px;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(147,4,53,0) 10%, rgba(166,3,44,0) 90%, rgba(255,0,0,1) 100%);
+}
+.img{
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img img {
+    width: 50%;
+}
+.description {
+    height: 10%;
+    padding: 0 2rem;
+    text-align: justify;
+
+}
+.infos {
+    border: 4px solid black;
+    border-radius: 20px;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(147,4,53,0) 10%, rgba(166,3,44,0) 90%, rgba(255,0,0,1) 100%);
+
+    
+}
+
+.pkm-select:hover {
+    color : red;
+    cursor: pointer;
+}
+
+.grass {
+    background: linear-gradient(90deg, var(--grass) 0%, rgba(147,4,53,0) 10%, rgba(166,3,44,0) 90%, var(--grass) 100%);
+
+}
+
+.fire {
+    background: linear-gradient(90deg, var(--fire) 0%, rgba(147,4,53,0) 10%, rgba(166,3,44,0) 90%, var(--fire) 100%);
+
+}
+
+.normal {
+    background: linear-gradient(90deg, var(--normal) 0%, rgba(147,4,53,0) 10%, rgba(166,3,44,0) 90%, var(--normal) 100%);
+
+}
+
+.water {
+    background: linear-gradient(90deg, var(--water) 0%, rgba(147,4,53,0) 10%, rgba(166,3,44,0) 90%, var(--water) 100%);
+
+}
+
+.electric {
+    background: linear-gradient(90deg, var(--electric) 0%, rgba(147,4,53,0) 10%, rgba(166,3,44,0) 90%, var(--electric) 100%);
+
+}
+
+.ice {
+    background: linear-gradient(90deg, var(--ice) 0%, rgba(147,4,53,0) 10%, rgba(166,3,44,0) 90%, var(--ice) 100%);
+
+}
+
+.fighting {
+    background: linear-gradient(90deg, var(--fighting) 0%, rgba(147,4,53,0) 10%, rgba(166,3,44,0) 90%, var(--fighting) 100%);
+
+}
+
+.poison {
+    background: linear-gradient(90deg, var(--poison) 0%, rgba(147,4,53,0) 10%, rgba(166,3,44,0) 90%, var(--poison) 100%);
+
+}
+
+.ground {
+    background: linear-gradient(90deg, var(--ground) 0%, rgba(147,4,53,0) 10%, rgba(166,3,44,0) 90%, var(--ground) 100%);
+
+}
+
+.flying {
+    background: linear-gradient(90deg, var(--flying) 0%, rgba(147,4,53,0) 10%, rgba(166,3,44,0) 90%, var(--flying) 100%);
+
+}
+
+.psychic {
+    background: linear-gradient(90deg, var(--psychic) 0%, rgba(147,4,53,0) 10%, rgba(166,3,44,0) 90%, var(--psychic) 100%);
+
+}
+
+.bug {
+    background: linear-gradient(90deg, var(--bug) 0%, rgba(147,4,53,0) 10%, rgba(166,3,44,0) 90%, var(--bug) 100%);
+
+}
+
+.rock {
+    background: linear-gradient(90deg, var(--rock) 0%, rgba(147,4,53,0) 10%, rgba(166,3,44,0) 90%, var(--rock) 100%);
+
+}
+
+.ghost {
+    background: linear-gradient(90deg, var(--ghost) 0%, rgba(147,4,53,0) 10%, rgba(166,3,44,0) 90%, var(--ghost) 100%);
+
+}
+
+.dragon {
+    background: linear-gradient(90deg, var(--dragon) 0%, rgba(147,4,53,0) 10%, rgba(166,3,44,0) 90%, var(--dragon) 100%);
+
+}
+
+.dark {
+    background: linear-gradient(90deg, var(--dark) 0%, rgba(147,4,53,0) 10%, rgba(166,3,44,0) 90%, var(--dark) 100%);
+
+}
+
+.steel {
+    background: linear-gradient(90deg, var(--steel) 0%, rgba(147,4,53,0) 10%, rgba(166,3,44,0) 90%, var(--steel) 100%);
+
+}
+
+.fairy {
+    background: linear-gradient(90deg, var(--fairy) 0%, rgba(147,4,53,0) 10%, rgba(166,3,44,0) 90%, var(--fairy) 100%);
+
+}
+
+.pkm-spin {
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.745);
+}
+
+.pkm-spin p {
+    color : white;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Pokemon;
+}
+.pkm-spin img {
+    width: 20%;
+}

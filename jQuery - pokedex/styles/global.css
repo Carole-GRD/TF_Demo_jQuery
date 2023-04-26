@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    margin: 2rem;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+    border: 1px solid #8c8c8c;
+    border-radius: 1rem;
+    padding: 2rem 0;
+}
+
+
+/* ARTICLE */
+article {
+    height: 90%;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+}
+
+.poke-name,
+.poke-img,
+.poke-descr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.poke-descr p {
+    margin: .2rem;  
+}
+
+li {
+     list-style: none;
+}
+
+
+/* ASIDE */
+
+aside {
+    height: 100%;
+    width: 35vw;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+aside div:first-of-type {
+    width: 18vw;
+}
+
+aside .btns {
+    margin: 15% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+

@@ -1,0 +1,28 @@
+.blue {
+    background-color: lightblue;
+}
+
+.red {
+    background-color: lightcoral;
+}
+
+.italique {
+    font-style: italic;
+}
+.gros {
+    font-size: large;
+}
+.gras {
+    font-weight: bold;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    overflow: auto;
+}
+
+.in-box {
+    width: 500px;
+    height: 300px;
+}

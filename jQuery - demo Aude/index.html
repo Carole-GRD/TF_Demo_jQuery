@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo JQuery</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="/styles/global.css">
+</head>
+<body>
+    <div id="bjr">Bonjour</div>
+
+    <ul id="maliste">
+        <li class="blue">Element 1</li>
+        <li class="red">Element 2</li>
+        <li class="red">Element 3</li>
+        <li class="blue">Element 4</li>
+        <li class="red">Element 5</li>
+    </ul>
+
+    <ul id="autreliste">
+        <li>Puce 1</li>
+        <li class="red">Puce 2</li>
+        <li>Puce 3</li>
+    </ul>
+
+    <form>
+        <div>
+            <label for="lastname">Nom : </label>
+            <input id="lastname" type="text">
+        </div>
+        <div>
+            <label for="firstname">Firstname : </label>
+            <input id="firstname" type="text">
+        </div>
+        <div>
+            <label for="mail">Email : </label>
+            <input id="mail" type="email">
+        </div>
+    </form>
+
+    <div>
+        <h2>Message : </h2>
+
+        <input id="msg-title" type="text" placeholder="Entrer un titre">
+        <input id="msg" type="text" placeholder="Entrer un message">
+        <button id="btn-msg">Envoyer</button>
+
+        <div id="display-msg">
+            <h3 id="last-msg">Derniers messages</h3>
+        </div>
+
+    </div>
+
+    <img id="ouioui" src="/images/banier.png" alt="oui">
+
+    <div>
+        <h2>Les classes</h2>
+        <p id="txt-class">Mon super texte pour la démo classe</p>
+        <button id="italique">Italique</button>
+        <button id="gros">Gros</button>
+        <button id="gras">Gras</button>
+    </div>
+    
+    <div>
+        <img id="img-animate" src="/images/banier.png" alt="">
+        <button id="img-show">Affiche img</button>
+    </div>
+
+    <div class="box">
+        <p class="in-box">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat iusto molestias unde dolores quasi excepturi commodi, totam tenetur dolor saepe adipisci blanditiis nostrum. Fugit at iusto mollitia. Neque, quia vel?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit odit adipisci dolorem accusantium! Eum illum voluptate reiciendis itaque a! Rerum, corrupti enim sapiente asperiores nisi deserunt repellendus in porro omnis!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti laborum tempora saepe modi officia error at expedita et voluptates magni, omnis fugit doloremque impedit beatae illum laboriosam pariatur, dolorem deserunt!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid repudiandae ex optio exercitationem laborum nam omnis qui temporibus ullam deserunt, voluptas rerum cupiditate voluptatibus. Non quod deserunt qui officia itaque.
+        </p>
+    </div>
+
+    <div>
+        <input id="name" type="text" placeholder="Entrer un prénom">
+        <button id="btn-agify">Chercher</button>
+        <p id="response"></p>
+    </div>
+
+    <script src="/scripts/main.js"></script>
+</body>
+</html>

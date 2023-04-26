@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/styles/global.css">
+</head>
+
+<body>
+    <main>
+        <div id="pkm-spin" class="pkm-spin">
+            <p>...Loading...</p>
+            <img id="img-spin" src="https://i.pinimg.com/originals/81/ce/66/81ce669b7d745ce8537c9e2599d40948.png" alt="">
+        </div>
+        <div class="content">
+
+            <div class="pokedex">
+                <div class="pokedex-inside">
+                    <div class="pkm-left">
+                        <div id="name" class="name">
+                            <p id="pkm-name">Nom du Pokemon</p>
+                        </div>
+                        <div class="img">
+                            <img id="pkm-img-none" src="https://66.media.tumblr.com/tumblr_mai132OrFS1rfjowdo1_500.gif"
+                                alt="gif sacha and pikachu">
+                            <img id="pkm-img-front" src="" alt="">
+                            <img id="pkm-img-back" src="" alt="">
+                        </div>
+                        <div id="description" class="description">
+
+                        </div>
+                        <div id="infos" class="infos">
+                            <p>N° <span id="pkm-id">XXX</span></p>
+                            <p>Poids : <span id="pkm-weight">X</span> kg</p>
+                            <p>Taille : <span id="pkm-height">X</span> cm </p>
+                        </div>
+                    </div>
+                    <div id="pkm-right" class="pkm-right">
+                        <div id="pokemons" class="pkm-list">
+                        </div>
+
+                        <div class="buttons">
+                            <button id="btn-prev" disabled>
+                                ⬆
+                            </button>
+                            <button id="btn-next">
+                                ⬇
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="/assets/scripts/main.js"></script>
+</body>
+
+</html>
